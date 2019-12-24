@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "NanoID",
+    platforms: [
+        .iOS(.v12),
+        .macOS(.v10_14),
+        .tvOS(.v9),
+        .watchOS(.v5),
+    ],
     products: [
         .library(name: "NanoID", targets: ["NanoID"]),
     ],

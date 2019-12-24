@@ -7,6 +7,8 @@ A tiny, secure, URL-friendly, unique string ID generator for Swift.
 * **Fast.** It’s 16% faster than UUID.
 * **Compact.** It uses a larger alphabet than UUID (`A-Za-z0-9_-`).
 
+[![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+
 ## Tools
 
 * [ID size calculator] to choice smaller ID size depends on your case.
